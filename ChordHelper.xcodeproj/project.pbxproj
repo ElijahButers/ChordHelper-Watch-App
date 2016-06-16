@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		298765D51B65FCF1007B6085 /* ChordTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298765D41B65FCF1007B6085 /* ChordTableController.swift */; };
+		298765D71B65FDBD007B6085 /* ChordDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298765D61B65FDBD007B6085 /* ChordDetailController.swift */; };
+		298765D91B65FF10007B6085 /* CircleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298765D81B65FF10007B6085 /* CircleLabel.swift */; };
+		299CD01B1B5B5B84000508CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CD01A1B5B5B84000508CB /* AppDelegate.swift */; };
+		299CD0201B5B5B84000508CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299CD01E1B5B5B84000508CB /* Main.storyboard */; };
+		299CD0221B5B5B84000508CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299CD0211B5B5B84000508CB /* Assets.xcassets */; };
+		299CD0251B5B5B84000508CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299CD0231B5B5B84000508CB /* LaunchScreen.storyboard */; };
+		299CD02A1B5B5B85000508CB /* ChordHelper WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 299CD0291B5B5B85000508CB /* ChordHelper WatchKit App.app */; };
+		299CD0301B5B5B85000508CB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299CD02E1B5B5B85000508CB /* Interface.storyboard */; };
+		299CD0321B5B5B85000508CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299CD0311B5B5B85000508CB /* Assets.xcassets */; };
+		299CD0391B5B5B85000508CB /* ChordHelper WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 299CD0381B5B5B85000508CB /* ChordHelper WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		299CD0401B5B5B85000508CB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CD03F1B5B5B85000508CB /* ExtensionDelegate.swift */; };
+		299CD0421B5B5B85000508CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299CD0411B5B5B85000508CB /* Assets.xcassets */; };
+		299CD0521B5B601A000508CB /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CD0511B5B601A000508CB /* Chord.swift */; };
+		299CD0531B5B601A000508CB /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CD0511B5B601A000508CB /* Chord.swift */; };
+		299CD0571B5B6234000508CB /* ChordRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CD0551B5B6234000508CB /* ChordRowController.swift */; };
+		299CD05A1B5B6272000508CB /* ChordTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CD0581B5B6272000508CB /* ChordTableController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		299CD02B1B5B5B85000508CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 299CD00F1B5B5B84000508CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 299CD0281B5B5B85000508CB;
+			remoteInfo = "ChordHelper WatchKit App";
+		};
+		299CD03A1B5B5B85000508CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 299CD00F1B5B5B84000508CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 299CD0371B5B5B85000508CB;
+			remoteInfo = "ChordHelper WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		299CD0491B5B5B85000508CB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				299CD0391B5B5B85000508CB /* ChordHelper WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299CD04D1B5B5B85000508CB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				299CD02A1B5B5B85000508CB /* ChordHelper WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		298765D41B65FCF1007B6085 /* ChordTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordTableController.swift; sourceTree = "<group>"; };
+		298765D61B65FDBD007B6085 /* ChordDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordDetailController.swift; sourceTree = "<group>"; };
+		298765D81B65FF10007B6085 /* CircleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLabel.swift; sourceTree = "<group>"; };
+		299CD0171B5B5B84000508CB /* ChordHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChordHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		299CD01A1B5B5B84000508CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		299CD01F1B5B5B84000508CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		299CD0211B5B5B84000508CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		299CD0241B5B5B84000508CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		299CD0261B5B5B84000508CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299CD0291B5B5B85000508CB /* ChordHelper WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChordHelper WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		299CD02F1B5B5B85000508CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		299CD0311B5B5B85000508CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		299CD0331B5B5B85000508CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299CD0381B5B5B85000508CB /* ChordHelper WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ChordHelper WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		299CD03F1B5B5B85000508CB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		299CD0411B5B5B85000508CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		299CD0431B5B5B85000508CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299CD0511B5B601A000508CB /* Chord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chord.swift; path = ChordHelperKit/Chord.swift; sourceTree = "<group>"; };
+		299CD0551B5B6234000508CB /* ChordRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordRowController.swift; sourceTree = "<group>"; };
+		299CD0581B5B6272000508CB /* ChordTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordTableController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		299CD0141B5B5B84000508CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299CD0351B5B5B85000508CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		299CD00E1B5B5B84000508CB = {
+			isa = PBXGroup;
+			children = (
+				299CD0541B5B601E000508CB /* Shared */,
+				299CD0191B5B5B84000508CB /* ChordHelper */,
+				299CD02D1B5B5B85000508CB /* ChordHelper WatchKit App */,
+				299CD03C1B5B5B85000508CB /* ChordHelper WatchKit Extension */,
+				299CD0181B5B5B84000508CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		299CD0181B5B5B84000508CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				299CD0171B5B5B84000508CB /* ChordHelper.app */,
+				299CD0291B5B5B85000508CB /* ChordHelper WatchKit App.app */,
+				299CD0381B5B5B85000508CB /* ChordHelper WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		299CD0191B5B5B84000508CB /* ChordHelper */ = {
+			isa = PBXGroup;
+			children = (
+				299CD01A1B5B5B84000508CB /* AppDelegate.swift */,
+				299CD0211B5B5B84000508CB /* Assets.xcassets */,
+				298765D61B65FDBD007B6085 /* ChordDetailController.swift */,
+				298765D81B65FF10007B6085 /* CircleLabel.swift */,
+				298765D41B65FCF1007B6085 /* ChordTableController.swift */,
+				299CD0261B5B5B84000508CB /* Info.plist */,
+				299CD0231B5B5B84000508CB /* LaunchScreen.storyboard */,
+				299CD01E1B5B5B84000508CB /* Main.storyboard */,
+			);
+			path = ChordHelper;
+			sourceTree = "<group>";
+		};
+		299CD02D1B5B5B85000508CB /* ChordHelper WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				299CD02E1B5B5B85000508CB /* Interface.storyboard */,
+				299CD0311B5B5B85000508CB /* Assets.xcassets */,
+				299CD0331B5B5B85000508CB /* Info.plist */,
+			);
+			path = "ChordHelper WatchKit App";
+			sourceTree = "<group>";
+		};
+		299CD03C1B5B5B85000508CB /* ChordHelper WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				299CD0411B5B5B85000508CB /* Assets.xcassets */,
+				299CD0551B5B6234000508CB /* ChordRowController.swift */,
+				299CD0581B5B6272000508CB /* ChordTableController.swift */,
+				299CD03F1B5B5B85000508CB /* ExtensionDelegate.swift */,
+				299CD0431B5B5B85000508CB /* Info.plist */,
+			);
+			path = "ChordHelper WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		299CD0541B5B601E000508CB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				299CD0511B5B601A000508CB /* Chord.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		299CD0161B5B5B84000508CB /* ChordHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299CD04E1B5B5B85000508CB /* Build configuration list for PBXNativeTarget "ChordHelper" */;
+			buildPhases = (
+				299CD0131B5B5B84000508CB /* Sources */,
+				299CD0141B5B5B84000508CB /* Frameworks */,
+				299CD0151B5B5B84000508CB /* Resources */,
+				299CD04D1B5B5B85000508CB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				299CD02C1B5B5B85000508CB /* PBXTargetDependency */,
+			);
+			name = ChordHelper;
+			productName = ChordHelper;
+			productReference = 299CD0171B5B5B84000508CB /* ChordHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		299CD0281B5B5B85000508CB /* ChordHelper WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299CD04A1B5B5B85000508CB /* Build configuration list for PBXNativeTarget "ChordHelper WatchKit App" */;
+			buildPhases = (
+				299CD0271B5B5B85000508CB /* Resources */,
+				299CD0491B5B5B85000508CB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				299CD03B1B5B5B85000508CB /* PBXTargetDependency */,
+			);
+			name = "ChordHelper WatchKit App";
+			productName = "ChordHelper WatchKit App";
+			productReference = 299CD0291B5B5B85000508CB /* ChordHelper WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		299CD0371B5B5B85000508CB /* ChordHelper WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299CD0461B5B5B85000508CB /* Build configuration list for PBXNativeTarget "ChordHelper WatchKit Extension" */;
+			buildPhases = (
+				299CD0341B5B5B85000508CB /* Sources */,
+				299CD0351B5B5B85000508CB /* Frameworks */,
+				299CD0361B5B5B85000508CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChordHelper WatchKit Extension";
+			productName = "ChordHelper WatchKit Extension";
+			productReference = 299CD0381B5B5B85000508CB /* ChordHelper WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		299CD00F1B5B5B84000508CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ray Wenderlich";
+				TargetAttributes = {
+					299CD0161B5B5B84000508CB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					299CD0281B5B5B85000508CB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					299CD0371B5B5B85000508CB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 299CD0121B5B5B84000508CB /* Build configuration list for PBXProject "ChordHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 299CD00E1B5B5B84000508CB;
+			productRefGroup = 299CD0181B5B5B84000508CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				299CD0161B5B5B84000508CB /* ChordHelper */,
+				299CD0281B5B5B85000508CB /* ChordHelper WatchKit App */,
+				299CD0371B5B5B85000508CB /* ChordHelper WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		299CD0151B5B5B84000508CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299CD0251B5B5B84000508CB /* LaunchScreen.storyboard in Resources */,
+				299CD0221B5B5B84000508CB /* Assets.xcassets in Resources */,
+				299CD0201B5B5B84000508CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299CD0271B5B5B85000508CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299CD0321B5B5B85000508CB /* Assets.xcassets in Resources */,
+				299CD0301B5B5B85000508CB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299CD0361B5B5B85000508CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299CD0421B5B5B85000508CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		299CD0131B5B5B84000508CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298765D71B65FDBD007B6085 /* ChordDetailController.swift in Sources */,
+				299CD01B1B5B5B84000508CB /* AppDelegate.swift in Sources */,
+				298765D51B65FCF1007B6085 /* ChordTableController.swift in Sources */,
+				299CD0521B5B601A000508CB /* Chord.swift in Sources */,
+				298765D91B65FF10007B6085 /* CircleLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299CD0341B5B5B85000508CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299CD05A1B5B6272000508CB /* ChordTableController.swift in Sources */,
+				299CD0401B5B5B85000508CB /* ExtensionDelegate.swift in Sources */,
+				299CD0531B5B601A000508CB /* Chord.swift in Sources */,
+				299CD0571B5B6234000508CB /* ChordRowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		299CD02C1B5B5B85000508CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 299CD0281B5B5B85000508CB /* ChordHelper WatchKit App */;
+			targetProxy = 299CD02B1B5B5B85000508CB /* PBXContainerItemProxy */;
+		};
+		299CD03B1B5B5B85000508CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 299CD0371B5B5B85000508CB /* ChordHelper WatchKit Extension */;
+			targetProxy = 299CD03A1B5B5B85000508CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		299CD01E1B5B5B84000508CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299CD01F1B5B5B84000508CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		299CD0231B5B5B84000508CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299CD0241B5B5B84000508CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		299CD02E1B5B5B85000508CB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299CD02F1B5B5B85000508CB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		299CD0441B5B5B85000508CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		299CD0451B5B5B85000508CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		299CD0471B5B5B85000508CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ChordHelper WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.ChordHelper.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		299CD0481B5B5B85000508CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ChordHelper WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.ChordHelper.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		299CD04B1B5B5B85000508CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ChordHelper_WatchKit_Extension;
+				INFOPLIST_FILE = "ChordHelper WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.ChordHelper.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		299CD04C1B5B5B85000508CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ChordHelper_WatchKit_Extension;
+				INFOPLIST_FILE = "ChordHelper WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.ChordHelper.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		299CD04F1B5B5B85000508CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChordHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.ChordHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		299CD0501B5B5B85000508CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChordHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.ChordHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		299CD0121B5B5B84000508CB /* Build configuration list for PBXProject "ChordHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299CD0441B5B5B85000508CB /* Debug */,
+				299CD0451B5B5B85000508CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		299CD0461B5B5B85000508CB /* Build configuration list for PBXNativeTarget "ChordHelper WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299CD0471B5B5B85000508CB /* Debug */,
+				299CD0481B5B5B85000508CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		299CD04A1B5B5B85000508CB /* Build configuration list for PBXNativeTarget "ChordHelper WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299CD04B1B5B5B85000508CB /* Debug */,
+				299CD04C1B5B5B85000508CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		299CD04E1B5B5B85000508CB /* Build configuration list for PBXNativeTarget "ChordHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				299CD04F1B5B5B85000508CB /* Debug */,
+				299CD0501B5B5B85000508CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 299CD00F1B5B5B84000508CB /* Project object */;
+}
