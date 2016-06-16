@@ -33,10 +33,10 @@
             </objects>
             <point key="canvasLocation" x="65" y="136.5"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Chord Controller-->
         <scene sceneID="0y8-2I-CkJ">
             <objects>
-                <controller id="IT8-cY-APV"/>
+                <controller id="IT8-cY-APV" customClass="ChordController" customModule="ChordHelper_WatchKit_Extension"/>
             </objects>
             <point key="canvasLocation" x="375" y="131"/>
         </scene>
