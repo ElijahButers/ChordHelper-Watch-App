@@ -33,6 +33,19 @@ class ChordController: WKInterfaceController {
     @IBOutlet var aCircle: WKInterfaceGroup!
     @IBOutlet var eCircle: WKInterfaceGroup!
     
+    typealias GuitarString = (spacer: WKInterfaceGroup, label: WKInterfaceLabel, circle: WKInterfaceGroup)
+    
+    var strings: [GuitarString] {
+        return [
+        (eSpacer, eLabel, eCircle),
+        (aSpacer, aLabel, aCircle),
+        (dSpacer, dLabel, dCircle),
+        (gSpacer, gLabel, gCircle),
+        (bSpacer, bLabel, bCircle),
+        (e2Spacer, e2Label, e2Circle)
+        ]
+    }
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
