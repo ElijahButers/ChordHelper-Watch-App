@@ -38,4 +38,8 @@ class ChordTableController: WKInterfaceController {
     }
   }
 
+    override func contextForSegueWithIdentifier(segueIdentifier: String, inTable table: WKInterfaceTable, rowIndex: Int) -> AnyObject? {
+        
+        return Chord.standardChords[rowIndex]
+    }
 }
