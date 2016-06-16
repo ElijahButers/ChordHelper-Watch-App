@@ -38,7 +38,7 @@
             <objects>
                 <controller id="IT8-cY-APV" customClass="ChordController" customModule="ChordHelper_WatchKit_Extension">
                     <items>
-                        <group width="1" alignment="left" id="juC-fS-17k">
+                        <group width="1" alignment="left" backgroundImage="line" id="juC-fS-17k">
                             <items>
                                 <label width="10" alignment="left" verticalAlignment="center" text="e" id="zsj-Za-ONY">
                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
