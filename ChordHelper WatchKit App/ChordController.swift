@@ -62,7 +62,7 @@ class ChordController: WKInterfaceController {
         if let chord = context as? Chord {
             setTitle(chord.name)
             
-            let spacing: CGFloat = 30
+            let spacing = dimensions.spacing
             let offset = CGFloat(chord.minimumFret) * spacing
             for (string, fret) in zip(strings, chord.frets) {
                 
