@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8152.3" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XzG-9o-8HA">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XzG-9o-8HA">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8124.4"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8077.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
     </dependencies>
     <scenes>
         <!--Chords-->
@@ -20,6 +20,7 @@
                                     </group>
                                     <connections>
                                         <outlet property="label" destination="Pk4-nk-7A3" id="MQT-be-xga"/>
+                                        <segue destination="IT8-cY-APV" kind="push" id="vvG-KM-lYH"/>
                                     </connections>
                                 </tableRow>
                             </items>
@@ -31,6 +32,13 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="65" y="136.5"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="0y8-2I-CkJ">
+            <objects>
+                <controller id="IT8-cY-APV"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="131"/>
         </scene>
     </scenes>
 </document>
