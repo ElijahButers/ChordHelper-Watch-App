@@ -287,6 +287,14 @@
                             <include reference="juZ-8J-COg"/>
                         </mask>
                     </variation>
+                    <connections>
+                        <outlet property="aSpacer" destination="1sH-Ji-ZDG" id="k86-b0-dpX"/>
+                        <outlet property="bSpacer" destination="atZ-hH-uV3" id="du3-NL-51k"/>
+                        <outlet property="dSpacer" destination="grF-uQ-cKG" id="uny-ug-PF1"/>
+                        <outlet property="e2Spacer" destination="t0j-NY-LD0" id="nez-TX-MVC"/>
+                        <outlet property="eSpacer" destination="B8B-g8-dSb" id="XfF-Eo-gRy"/>
+                        <outlet property="gSpacer" destination="kR5-yt-DU9" id="QIY-QW-2aK"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="375" y="131"/>

@@ -12,6 +12,14 @@ import Foundation
 
 class ChordController: WKInterfaceController {
 
+    @IBOutlet var e2Spacer: WKInterfaceGroup!
+    @IBOutlet var bSpacer: WKInterfaceGroup!
+    @IBOutlet var gSpacer: WKInterfaceGroup!
+    @IBOutlet var dSpacer: WKInterfaceGroup!
+    @IBOutlet var aSpacer: WKInterfaceGroup!
+    @IBOutlet var eSpacer: WKInterfaceGroup!
+    
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
