@@ -43,6 +43,7 @@
                                 <label width="10" alignment="left" verticalAlignment="center" text="e" id="zsj-Za-ONY">
                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </label>
+                                <group width="30" height="1" alignment="left" id="t0j-NY-LD0"/>
                                 <group width="20" height="20" alignment="left" radius="10" id="KtO-1a-zu9">
                                     <items>
                                         <label alignment="center" verticalAlignment="center" text="2" id="ycf-sf-Hgf"/>
@@ -63,12 +64,14 @@
                             <variation key="default">
                                 <mask key="items">
                                     <exclude reference="zsj-Za-ONY"/>
+                                    <exclude reference="t0j-NY-LD0"/>
                                     <exclude reference="KtO-1a-zu9"/>
                                 </mask>
                             </variation>
                             <variation key="device=watch42mm">
                                 <mask key="items">
                                     <include reference="zsj-Za-ONY"/>
+                                    <include reference="t0j-NY-LD0"/>
                                     <include reference="KtO-1a-zu9"/>
                                 </mask>
                             </variation>
