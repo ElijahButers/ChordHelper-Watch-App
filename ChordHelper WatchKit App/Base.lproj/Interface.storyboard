@@ -40,8 +40,12 @@
                     <items>
                         <group width="1" alignment="left" id="juC-fS-17k">
                             <items>
-                                <label alignment="left" text="Label" id="zsj-Za-ONY"/>
-                                <group width="1" alignment="left" id="KtO-1a-zu9"/>
+                                <label width="10" alignment="left" verticalAlignment="center" text="e" id="zsj-Za-ONY">
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
+                                <group width="20" height="20" alignment="left" radius="10" id="KtO-1a-zu9">
+                                    <color key="backgroundColor" red="0.12549019607843137" green="0.58039215686274503" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                </group>
                             </items>
                             <variation key="default">
                                 <mask key="items">
