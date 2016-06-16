@@ -36,7 +36,38 @@
         <!--Chord Controller-->
         <scene sceneID="0y8-2I-CkJ">
             <objects>
-                <controller id="IT8-cY-APV" customClass="ChordController" customModule="ChordHelper_WatchKit_Extension"/>
+                <controller id="IT8-cY-APV" customClass="ChordController" customModule="ChordHelper_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="juC-fS-17k">
+                            <items>
+                                <label alignment="left" text="Label" id="zsj-Za-ONY"/>
+                                <group width="1" alignment="left" id="KtO-1a-zu9"/>
+                            </items>
+                            <variation key="default">
+                                <mask key="items">
+                                    <exclude reference="zsj-Za-ONY"/>
+                                    <exclude reference="KtO-1a-zu9"/>
+                                </mask>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <mask key="items">
+                                    <include reference="zsj-Za-ONY"/>
+                                    <include reference="KtO-1a-zu9"/>
+                                </mask>
+                            </variation>
+                        </group>
+                    </items>
+                    <variation key="default">
+                        <mask key="items">
+                            <exclude reference="juC-fS-17k"/>
+                        </mask>
+                    </variation>
+                    <variation key="device=watch42mm">
+                        <mask key="items">
+                            <include reference="juC-fS-17k"/>
+                        </mask>
+                    </variation>
+                </controller>
             </objects>
             <point key="canvasLocation" x="375" y="131"/>
         </scene>
