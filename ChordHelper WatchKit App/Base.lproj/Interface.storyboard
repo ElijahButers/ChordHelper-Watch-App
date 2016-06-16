@@ -288,11 +288,23 @@
                         </mask>
                     </variation>
                     <connections>
+                        <outlet property="aCircle" destination="2Vx-rv-U84" id="EPS-d6-36l"/>
+                        <outlet property="aLabel" destination="Wn1-ng-HbB" id="cN8-ZI-q9k"/>
                         <outlet property="aSpacer" destination="1sH-Ji-ZDG" id="k86-b0-dpX"/>
+                        <outlet property="bCircle" destination="419-JM-gQK" id="Tpd-OO-zUG"/>
+                        <outlet property="bLabel" destination="FBX-em-G6J" id="ce8-dZ-gK5"/>
                         <outlet property="bSpacer" destination="atZ-hH-uV3" id="du3-NL-51k"/>
+                        <outlet property="dCircle" destination="h8X-BV-X7W" id="wZM-0c-YZz"/>
+                        <outlet property="dLabel" destination="h8X-BV-X7W" id="VZS-QC-Pl2"/>
                         <outlet property="dSpacer" destination="grF-uQ-cKG" id="uny-ug-PF1"/>
+                        <outlet property="e2Circle" destination="KtO-1a-zu9" id="ZMc-T5-92g"/>
+                        <outlet property="e2Label" destination="ycf-sf-Hgf" id="ZbJ-nr-e0l"/>
                         <outlet property="e2Spacer" destination="t0j-NY-LD0" id="nez-TX-MVC"/>
+                        <outlet property="eCircle" destination="nfi-Cb-Jll" id="hOd-av-d6f"/>
+                        <outlet property="eLabel" destination="G5T-zb-fgS" id="N45-lR-Xje"/>
                         <outlet property="eSpacer" destination="B8B-g8-dSb" id="XfF-Eo-gRy"/>
+                        <outlet property="gCircle" destination="c7g-18-bK4" id="P2p-JO-hNa"/>
+                        <outlet property="gLabel" destination="csN-ZA-SwR" id="CyE-3N-Y0p"/>
                         <outlet property="gSpacer" destination="kR5-yt-DU9" id="QIY-QW-2aK"/>
                     </connections>
                 </controller>

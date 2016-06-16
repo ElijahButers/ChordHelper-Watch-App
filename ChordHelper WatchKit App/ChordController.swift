@@ -19,6 +19,19 @@ class ChordController: WKInterfaceController {
     @IBOutlet var aSpacer: WKInterfaceGroup!
     @IBOutlet var eSpacer: WKInterfaceGroup!
     
+    @IBOutlet var e2Label: WKInterfaceLabel!
+    @IBOutlet var bLabel: WKInterfaceLabel!
+    @IBOutlet var gLabel: WKInterfaceLabel!
+    @IBOutlet var dLabel: WKInterfaceLabel!
+    @IBOutlet var aLabel: WKInterfaceLabel!
+    @IBOutlet var eLabel: WKInterfaceLabel!
+    
+    @IBOutlet var e2Circle: WKInterfaceGroup!
+    @IBOutlet var bCircle: WKInterfaceGroup!
+    @IBOutlet var gCircle: WKInterfaceGroup!
+    @IBOutlet var dCircle: WKInterfaceLabel!
+    @IBOutlet var aCircle: WKInterfaceGroup!
+    @IBOutlet var eCircle: WKInterfaceGroup!
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
