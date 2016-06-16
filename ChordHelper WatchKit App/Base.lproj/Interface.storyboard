@@ -44,7 +44,20 @@
                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </label>
                                 <group width="20" height="20" alignment="left" radius="10" id="KtO-1a-zu9">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" text="2" id="ycf-sf-Hgf"/>
+                                    </items>
                                     <color key="backgroundColor" red="0.12549019607843137" green="0.58039215686274503" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                    <variation key="default">
+                                        <mask key="items">
+                                            <exclude reference="ycf-sf-Hgf"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="device=watch42mm">
+                                        <mask key="items">
+                                            <include reference="ycf-sf-Hgf"/>
+                                        </mask>
+                                    </variation>
                                 </group>
                             </items>
                             <variation key="default">
