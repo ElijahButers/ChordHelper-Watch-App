@@ -16,6 +16,9 @@ class ChordController: WKInterfaceController {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
+        if let chord = context as? Chord {
+            setTitle(chord.name)
+        }
     }
 
     override func willActivate() {
