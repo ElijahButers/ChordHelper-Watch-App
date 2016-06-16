@@ -24,6 +24,7 @@
 		299CD0531B5B601A000508CB /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CD0511B5B601A000508CB /* Chord.swift */; };
 		299CD0571B5B6234000508CB /* ChordRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CD0551B5B6234000508CB /* ChordRowController.swift */; };
 		299CD05A1B5B6272000508CB /* ChordTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CD0581B5B6272000508CB /* ChordTableController.swift */; };
+		E21262861D12A8C200351996 /* ChordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21262851D12A8C200351996 /* ChordController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		299CD0511B5B601A000508CB /* Chord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chord.swift; path = ChordHelperKit/Chord.swift; sourceTree = "<group>"; };
 		299CD0551B5B6234000508CB /* ChordRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordRowController.swift; sourceTree = "<group>"; };
 		299CD0581B5B6272000508CB /* ChordTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordTableController.swift; sourceTree = "<group>"; };
+		E21262851D12A8C200351996 /* ChordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChordController.swift; path = "../ChordHelper WatchKit App/ChordController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				299CD0551B5B6234000508CB /* ChordRowController.swift */,
 				299CD0581B5B6272000508CB /* ChordTableController.swift */,
 				299CD03F1B5B5B85000508CB /* ExtensionDelegate.swift */,
+				E21262851D12A8C200351996 /* ChordController.swift */,
 				299CD0431B5B5B85000508CB /* Info.plist */,
 			);
 			path = "ChordHelper WatchKit Extension";
@@ -321,6 +324,7 @@
 				299CD05A1B5B6272000508CB /* ChordTableController.swift in Sources */,
 				299CD0401B5B5B85000508CB /* ExtensionDelegate.swift in Sources */,
 				299CD0531B5B601A000508CB /* Chord.swift in Sources */,
+				E21262861D12A8C200351996 /* ChordController.swift in Sources */,
 				299CD0571B5B6234000508CB /* ChordRowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
