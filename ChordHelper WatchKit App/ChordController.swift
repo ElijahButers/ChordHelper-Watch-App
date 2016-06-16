@@ -52,6 +52,18 @@ class ChordController: WKInterfaceController {
         // Configure interface objects here.
         if let chord = context as? Chord {
             setTitle(chord.name)
+            
+            let spacing: CGFloat = 30
+            let offset = CGFloat(chord.minimumFret) * spacing
+            for (string, fret) in zip(strings, chord.frets) {
+                
+                string.label.setText("\(fret)")
+                if fret == -1 {
+                    string.circle.setHidden(true)
+                } else {
+                    string.spacer.setWidth(CGFloat(fret) * spacing - offset)
+                }
+            }
         }
     }
 
