@@ -46,6 +46,15 @@ class ChordController: WKInterfaceController {
         ]
     }
     
+    let dimensions: (circleSize: CGFloat, spacing: CGFloat) = {
+        let isBigWatch = WKInterfaceDevice.currentDevice().screenBounds.size.width >= 156
+        if isBigWatch {
+            return (25, 35)
+        } else {
+            return (20, 30)
+        }
+    }()
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
