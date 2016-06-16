@@ -29,7 +29,7 @@ class ChordController: WKInterfaceController {
     @IBOutlet var e2Circle: WKInterfaceGroup!
     @IBOutlet var bCircle: WKInterfaceGroup!
     @IBOutlet var gCircle: WKInterfaceGroup!
-    @IBOutlet var dCircle: WKInterfaceLabel!
+    @IBOutlet var dCircle: WKInterfaceGroup!
     @IBOutlet var aCircle: WKInterfaceGroup!
     @IBOutlet var eCircle: WKInterfaceGroup!
     
